@@ -1,0 +1,24 @@
+Question 1
+    What will the code below output to the console and why ?
+    console.log(1 + "2" + "2");
+    => Output: 122
+    => Reason: 1 is a int number and "2", "2" is a char type so they will concatenate and hence output will be 122.
+    console.log(1 + +"2" + "2");
+    => Output: 32
+    => Reason: +"2" will be converted to int and 1+ +"2"=3 and "2" will be concatenated.
+    console.log(1 + -"1" + "2");
+    => Output: 02
+    => Reason: 1+ -"1" = 0 and "2" will be concatenated
+    console.log(+"1" + "1" + "2");
+    => Output: 112
+    => Reason: +"1" will be converted to int and "1", "2" will be concatenatedto give 112 as a result.
+    console.log( "A" - "B" + "2");
+    => Output: NaN2
+    => Reason: there is no "-" operation in strings so NaN will be output and "2" will be concatenated to it.
+    console.log( "A" - "B" + 2);
+    => Output: NaN
+    => Reason: Here 2 is of int type and there is no valid operand before + so output will be NaN only.
+
+
+
+
