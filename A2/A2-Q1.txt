@@ -1,0 +1,8 @@
+Question 1
+    What is the value of clothes[0] and why?
+    const clothes = ['jacket', 't-shirt'];
+    clothes.length = 0;
+    console.log(clothes[0]);
+    => Output: undefined.
+    => Reason: when we assigned 0 to array length it shrinks deleting all its elements. SO when we try to access there is no element in the array.
+    
