@@ -1,0 +1,8 @@
+Q1. By how many ways we can access elements in the DOM and write about them in brief?
+=> We can access elements by 3 ways
+1. by id
+   Id id unique for every element and it manipulates with properties of single element only.
+2. by class name
+    Class can be collectively given to some tags and operations will be implied to all that tags.
+3. by tag name
+    By using tag name to access we can select all the elemnts with the same tag name and apply changes to them all simaltaneously.
